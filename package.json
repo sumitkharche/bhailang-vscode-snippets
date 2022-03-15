@@ -1,0 +1,26 @@
+{
+    "name": "bhailang-vscode-snippets",
+    "displayName": "Bhailang Snippets",
+    "description": "VS Code snippets for Bhailang",
+    "version": "1.0.1",
+    "icon": "./images/bhailang.PNG",
+    "publisher": "Sumit Kharche",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/sumitkharche/bhailang-vscode-snippets"
+    },
+    "engines": {
+        "vscode": "^1.65.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "javascript",
+                "path": "./snippets/new-bhai.json"
+            }
+        ]
+    }
+}
