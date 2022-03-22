@@ -3,7 +3,7 @@
     "displayName": "Bhailang VSCode Snippets",
     "description": "VS Code snippets for Bhailang",
     "version": "1.0.1",
-    "icon": "./images/bhailang.PNG",
+    "icon": "./images/bhailang-vs-icon-1.PNG",
     "publisher": "Sumit Kharche",
     "repository": {
         "type": "git",
