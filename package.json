@@ -1,6 +1,6 @@
 {
     "name": "bhailang-vscode-snippets",
-    "displayName": "Bhailang Snippets",
+    "displayName": "Bhailang VSCode Snippets",
     "description": "VS Code snippets for Bhailang",
     "version": "1.0.1",
     "icon": "./images/bhailang.PNG",
@@ -16,10 +16,28 @@
         "Snippets"
     ],
     "contributes": {
+        "languages": [{
+            "id": "bhailang",
+            "aliases": [
+                "Bhailang",
+                "bhailang"
+            ],
+            "extensions": [
+                ".bhai"
+            ],
+            "configuration": "./language-configuration.json"
+        }],   
+        "grammars": [
+            {
+                "language": "bhailang",
+                "scopeName": "source.bhailang",
+                "path": "./syntaxes/bhailang.tmLanguage.json"
+            }
+        ],    
         "snippets": [
             {
-                "language": "javascript",
-                "path": "./snippets/new-bhai.json"
+                "language": "bhailang",
+                "path": "./snippets/bhailang-snippets.json"
             }
         ]
     }

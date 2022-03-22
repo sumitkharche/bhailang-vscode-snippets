@@ -1,0 +1,99 @@
+{
+    "New Bhai": {
+        "prefix": "!hi",
+        "body": [
+          "hi bhai",
+          "",
+          "//Add your code here",
+          "",
+          "bye bhai"
+        ],
+        "description": "New Bhai"
+      },
+      "Bol bhai": {
+        "prefix": "!bb",
+        "body": [
+          "bol bhai \"\""
+        ],
+        "description": "Bol bhai"
+      },
+      "bhai ye hai": {
+        "prefix": "!byh",
+        "body": [
+          "bhai ye hai"
+        ],
+        "description": "bhai ye hai"
+      },
+      "agar bhai": {
+        "prefix": "!ab",
+        "body": [
+          "agar bhai () {",
+          "   ",
+          "}"
+        ],
+        "description": "agar bhai"
+      },
+      "agar bhai nahi to bhi bhai": {
+        "prefix": "!abn",
+        "body": [
+          "agar bhai () {",
+          "  ",
+          "} nahi to bhai () {",
+          "  ",
+          "}"
+        ],
+        "description": "agar bhai nahi to bhi bhai"
+      },
+      "agar bhai warna bhai": {
+        "prefix": "!abw",
+        "body": [
+          "agar bhai () {",
+          "  ",
+          "} warna bhai {",
+          "  ",
+          "}"
+        ],
+        "description": "agar bhai warna bhai"
+      },
+      "nahi to bhai": {
+        "prefix": "!ntb",
+        "body": [
+          "nahi to bhai () {",
+          "   ",
+          "}"
+        ],
+        "description": "nahi to bhai"
+      },
+      "warna bhai": {
+        "prefix": "!wb",
+        "body": [
+          "warna bhai {",
+          "   ",
+          "}"
+        ],
+        "description": "warna bhai"
+      },
+      "jab tak bhai": {
+        "prefix": "!jtb",
+        "body": [
+          "jab tak bhai () {",
+          "",
+          "}"
+        ],
+        "description": "jab tak bhai"
+      },
+      "agla dekh bhai": {
+        "prefix": "!adb",
+        "body": [
+          "agla dekh bhai;"
+        ],
+        "description": "agla dekh bhai"
+      },
+      "bas kar bhai": {
+        "prefix": "!bkb",
+        "body": [
+          "bas kar bhai;"
+        ],
+        "description": "bas kar bhai"
+      }
+}
